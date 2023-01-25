@@ -36,6 +36,7 @@ RUN pip3 install --upgrade pip && pip3 install -r requirements-release.txt && rm
 
 # copy the build
 COPY /src /app
+COPY /common/interface /app/interface
 WORKDIR /app
 
 CMD [ "/usr/bin/python3", "main.py", "--no-sandbox" ]
