@@ -72,6 +72,9 @@ RUN apt-get -q -y update && \
     apt-get -q -y install \
 # DOES NOT REMOVE THIS LABEL: this is used for VS Code automation
     # __torizon_packages_dev_start__
+	build-essential:armhf \
+	python3-grpcio:armhf \
+	python3-grpc-tools:armhf \
     # __torizon_packages_dev_end__
 # DOES NOT REMOVE THIS LABEL: this is used for VS Code automation
     && \

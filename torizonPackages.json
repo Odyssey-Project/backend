@@ -2,5 +2,8 @@
     "deps": [
     ],
     "devDeps": [
+        "build-essential",
+        "python3-grpcio",
+        "python3-grpc-tools"
     ]
 }
